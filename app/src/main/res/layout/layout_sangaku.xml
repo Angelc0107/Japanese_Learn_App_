@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/JPBGColour"
+    tools:context=".Sangaku">
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/deep_pink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="Sangaku"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/Sangaku_form_btn"
+        android:layout_width="258dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="4dp"
+        android:text="Sangaku Concept"
+        app:layout_constraintBottom_toTopOf="@+id/viewbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/viewbtn"
+        android:layout_width="258dp"
+        android:layout_height="44dp"
+        android:text="Sangaku Gallery"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+
+    <Button
+        android:id="@+id/uploadbtn"
+        android:layout_width="258dp"
+        android:layout_height="44dp"
+        android:text="Upload Sangaku"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewbtn" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

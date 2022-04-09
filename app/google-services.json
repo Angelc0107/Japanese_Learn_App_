@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "214247689475",
+    "project_id": "japaneseapp-8816d",
+    "storage_bucket": "japaneseapp-8816d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214247689475:android:9d5cfb84b87cafaf346d36",
+        "android_client_info": {
+          "package_name": "com.example.japanese_learn_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "214247689475-ndhjru8n7ah8bae4p8i3077fmav8k8e0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2emXcsijwz86F0A0NCCLdD9inuyBUBlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "214247689475-ndhjru8n7ah8bae4p8i3077fmav8k8e0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

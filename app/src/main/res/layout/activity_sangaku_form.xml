@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/JPBGColour"
+    tools:context=".Sangaku_Form">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="392dp"
+        android:layout_height="634dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/deep_pink"
+            android:gravity="center_horizontal"
+            android:text="Sangaku Formular"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Sangaku is a tranditional geometry problems in old day (Edo period). This kind of interesting activitvies usually hold in Japanese temple or shrines."
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="SOME BASIC FORMULAR"
+            android:textColor="@color/purple_700" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Pythagorean theorem :  c^2 = a^2 + b^2 " />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Circle: A=πr^2" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Circle : (x−a)^2 + (y−b)^2 = r" />
+
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Sample: The smallest distinct integer solution to the Sangaku puzzle in which three circles touch each other and share a tangent line." />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Right triangle : Perimeter = a + b + √(a2 + b2)" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Area = ½ ab" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Rectangle: Perimeter = 2(l + w) Area = lw  Diagonal, d = √(l2 + w2)" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/formular" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
